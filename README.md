@@ -22,4 +22,16 @@ Visualisations
 
 
 Modelling
+I decided to use recall as our metric of success since its used to predict the true positive rate
+
 We used 4 models to predict the level of churning in our company.The baseline model,KNN Model,DecisionTree model,Randomforest.
+Based on the models,the decision tree model was the best performing compared to other models with a recall of 77% and precision of 50%.Therefore it would be safe to use it to predict the churning rate of customers so that we can take the necessary measures.
+
+Recommendation
+From the models we get to see that the Decision tree has the highest recall and therefore can be used to predict the highest rate of customer churning .I would therefore recommend that they use this model so that they can be able to predict the rate of customer churning and put necessary measures befor hand
+
+From the data we get to see that features such as customer service and international plan highly affect the customer churning rate.Syriatel hould make sure that they improve their services so that they can retain customers and avoid revenue loss
+
+
+Further investigations should be made in order to know what steps to take inorder to reduce by atleast 7% churning e.g offering incentives to customers,look at the targeted market especially if they have international plan or not so that they can retain their customers
+
